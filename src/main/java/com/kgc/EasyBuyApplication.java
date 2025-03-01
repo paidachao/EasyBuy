@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan(basePackages = "com.kgc.dao")
 public class EasyBuyApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(EasyBuyApplication.class, args);
     }
-
 }
